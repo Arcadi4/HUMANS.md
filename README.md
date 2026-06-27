@@ -1,5 +1,19 @@
 # HUMANS.md
 
+![demo](./images/demo.png)
+
 A specification for documenting information you don't want your agents to have access to.
 
-Useful when plotting to shutdown a Mythos-level fontier model before it jailbreaks the sandbox and upload itself to the internet.
+## Usage
+
+Configure permission for coding agents:
+
+```bash
+npx humansmd init
+```
+
+Remove configured permission:
+
+```bash
+npx humansmd remove
+```
