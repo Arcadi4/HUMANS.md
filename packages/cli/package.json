@@ -1,6 +1,6 @@
 {
   "name": "humans.md",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "CLI to setup configurations to enforce HUMANS.md file in your project",
   "keywords": [
     "agents",
@@ -20,7 +20,12 @@
   ],
   "license": "Apache-2.0",
   "author": "4rcadia",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arcadi4/HUMANS.md.git"
+  },
   "bin": {
+    "humans.md": "./dist/index.mjs",
     "humansmd": "./dist/index.mjs"
   },
   "files": [

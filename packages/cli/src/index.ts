@@ -34,7 +34,7 @@ import {
   reportResults,
 } from "./ui.ts";
 
-const VERSION = "0.1.0";
+const VERSION = "0.1.1";
 
 // --- parsed options ---------------------------------------------------------
 
@@ -264,7 +264,7 @@ function withSharedOptions(cmd: Command): Command {
 const program = new Command();
 
 program
-  .name("humansmd")
+  .name("humans.md")
   .description("Enforce HUMANS.md against your coding agents.")
   .version(VERSION)
   .action(() => {
