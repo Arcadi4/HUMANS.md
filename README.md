@@ -9,11 +9,11 @@ A specification for documenting information you don't want your agents to have a
 Configure permission for coding agents:
 
 ```bash
-npx humans.md init
+npx -y humans.md init
 ```
 
 Remove configured permission:
 
 ```bash
-npx humans.md remove
+npx -y humans.md remove
 ```
