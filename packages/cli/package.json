@@ -1,6 +1,6 @@
 {
   "name": "humans.md",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "CLI to setup configurations to enforce HUMANS.md file in your project",
   "keywords": [
     "agents",

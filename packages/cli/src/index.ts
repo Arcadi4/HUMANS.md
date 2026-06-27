@@ -32,9 +32,10 @@ import {
   askScope,
   introBanner,
   reportResults,
+  logo,
 } from "./ui.ts";
 
-const VERSION = "0.1.1";
+const VERSION = "0.1.2";
 
 // --- parsed options ---------------------------------------------------------
 
@@ -270,7 +271,8 @@ program
   .action(() => {
     // No subcommand → show help.
     program.help();
-  });
+  })
+  .addHelpText("before", logo());
 
 withSharedOptions(
   program.command("init").description("Configure your agents to deny read access to HUMANS.md."),
